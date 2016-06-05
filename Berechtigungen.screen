@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="50" y="50" measuredWidth="600" measuredHeight="431">
+    <widgets xsi:type="model:Browser" id="2" width="600" height="431" text="Browser&#xA;http://smarthome.de/berechtigungen" measuredWidth="600" measuredHeight="431">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="3" x="32" y="75" width="529" measuredWidth="529" measuredHeight="41">
+      <widgets xsi:type="model:Panel" id="4" width="529" height="41" measuredWidth="529" measuredHeight="41"/>
+      <widgets xsi:type="model:Label" id="5" y="5" width="529" text="Berechtigungen" measuredWidth="529" measuredHeight="31" textAlignment="Center">
+        <font size="16px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="32" y="126" measuredWidth="529" measuredHeight="281">
+      <widgets xsi:type="model:Panel" id="7" width="529" height="281" measuredWidth="529" measuredHeight="281"/>
+      <widgets xsi:type="model:WidgetGroup" id="54" x="10" y="10" measuredWidth="509" measuredHeight="262">
+        <widgets xsi:type="model:Table" id="50" width="509" height="261" text="Name,Alarmanlage,Heizung,Licht,Hauszutritt,Wohnzimmerzutritt, Kellerzutritt,Schlafzimmerzutritt&#xA;Karl Vogt,[],[x],[x],[],[x],[x]&#xA;Henri Bertsch,[x],[x],[],[],[x],[x]&#xA;Olga Meier,[x],[],[x],[x],[],[x]" measuredWidth="509" measuredHeight="261" alternative="#eeeeee">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:HScrollbar" id="53" y="245" width="509" measuredWidth="509" measuredHeight="17"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

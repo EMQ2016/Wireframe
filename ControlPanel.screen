@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="23" x="50" y="50" measuredWidth="600" measuredHeight="450">
+    <widgets xsi:type="model:Browser" id="1" width="600" height="450" text="Browser&#xA;http://smarthome.de/controlpanel" measuredWidth="600" measuredHeight="450">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="10" x="131" y="152" measuredWidth="145" measuredHeight="121">
+      <widgets xsi:type="model:Panel" id="3" width="145" height="121" measuredWidth="145" measuredHeight="121"/>
+      <widgets xsi:type="model:Icon" id="4" x="32" y="11" width="81" height="71" measuredWidth="81" measuredHeight="71" icon="lightning (custom)"/>
+      <widgets xsi:type="model:Label" id="5" x="10" y="86" width="129" text="Energiemanagement" measuredWidth="129" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="9" x="320" y="152" measuredWidth="145" measuredHeight="121">
+      <widgets xsi:type="model:Panel" id="6" width="145" height="121" measuredWidth="145" measuredHeight="121"/>
+      <widgets xsi:type="model:Icon" id="7" x="32" y="11" width="81" height="71" measuredWidth="81" measuredHeight="71" icon="secure (custom)"/>
+      <widgets xsi:type="model:Label" id="8" x="10" y="86" width="129" text="Alarmanlage" measuredWidth="129" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="11" x="131" y="288" measuredWidth="145" measuredHeight="121">
+      <widgets xsi:type="model:Panel" id="12" width="145" height="121" measuredWidth="145" measuredHeight="121"/>
+      <widgets xsi:type="model:Icon" id="13" x="32" y="11" width="81" height="71" measuredWidth="81" measuredHeight="71" icon="key (custom)"/>
+      <widgets xsi:type="model:Label" id="14" x="10" y="86" width="129" text="Berechtigungen" measuredWidth="129" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="15" x="320" y="288" measuredWidth="145" measuredHeight="121">
+      <widgets xsi:type="model:Panel" id="16" width="145" height="121" measuredWidth="145" measuredHeight="121"/>
+      <widgets xsi:type="model:Icon" id="17" x="32" y="11" width="81" height="71" measuredWidth="81" measuredHeight="71" icon="video2 (custom)"/>
+      <widgets xsi:type="model:Label" id="18" x="10" y="86" width="129" text="Überwachung" measuredWidth="129" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="19" x="32" y="68" measuredWidth="529" measuredHeight="41">
+      <widgets xsi:type="model:Panel" id="20" width="529" height="41" measuredWidth="529" measuredHeight="41"/>
+      <widgets xsi:type="model:Label" id="21" y="6" width="529" text="Control Panel" measuredWidth="529" measuredHeight="31" textAlignment="Center">
+        <font size="16px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

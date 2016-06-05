@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="16" x="50" y="50" measuredWidth="600" measuredHeight="450">
+    <widgets xsi:type="model:WidgetGroup" id="17" measuredWidth="600" measuredHeight="450">
+      <widgets xsi:type="model:Browser" id="1" width="600" height="450" text="Browser&#xA;http://smarthome.de/login" measuredWidth="600" measuredHeight="450">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="14" x="155" y="259" measuredWidth="272" measuredHeight="124">
+        <widgets xsi:type="model:Checkbox" id="3" x="71" y="72" text="Angemeldet bleiben" measuredWidth="133" measuredHeight="25">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="6" x="71" width="201" text="Username" measuredWidth="201" measuredHeight="25">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:TextField" id="7" x="71" y="36" width="201" text="Passwort" measuredWidth="201" measuredHeight="25">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="8" text="Username:" measuredWidth="68" measuredHeight="25">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Label" id="9" y="36" text="Passwort:" measuredWidth="60" measuredHeight="25">
+          <font/>
+        </widgets>
+        <widgets xsi:type="model:Button" id="5" x="71" y="99" width="73" height="25" text="Login" measuredWidth="73" measuredHeight="25">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="15" x="32" y="125" width="529" measuredWidth="529" measuredHeight="100">
+        <widgets xsi:type="model:Panel" id="10" width="529" measuredWidth="529" measuredHeight="100"/>
+        <widgets xsi:type="model:Label" id="12" y="6" width="529" text="Wilkommen!" measuredWidth="529" measuredHeight="25" textAlignment="Center">
+          <font bold="true"/>
+        </widgets>
+        <widgets xsi:type="model:Text" id="13" x="10" y="38" width="509" height="52" text="Bitte loggen Sie sich ein, um auf ihr SmartHome Control Panel zuzugreifen." measuredWidth="509" measuredHeight="52" textAlignment="Center">
+          <font/>
+        </widgets>
+      </widgets>
+      <widgets xsi:type="model:WidgetGroup" id="19" x="32" y="75" width="529" measuredWidth="529" measuredHeight="41">
+        <widgets xsi:type="model:Panel" id="20" width="529" height="41" measuredWidth="529" measuredHeight="41"/>
+        <widgets xsi:type="model:Label" id="21" y="5" width="529" text="Smart Home" measuredWidth="529" measuredHeight="31" textAlignment="Center">
+          <font size="16px" bold="true"/>
+        </widgets>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

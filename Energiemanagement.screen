@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="42" x="50" y="50" measuredWidth="600" measuredHeight="577">
+    <widgets xsi:type="model:Browser" id="1" width="600" height="577" text="Browser&#xA;http://smarthome.de/energiemanagement" measuredWidth="600" measuredHeight="577">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="2" x="32" y="75" width="529" measuredWidth="529" measuredHeight="41">
+      <widgets xsi:type="model:Panel" id="3" width="529" height="41" measuredWidth="529" measuredHeight="41"/>
+      <widgets xsi:type="model:Label" id="4" y="5" width="529" text="Energiemanagement" measuredWidth="529" measuredHeight="31" textAlignment="Center">
+        <font size="16px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="12" x="32" y="126" measuredWidth="257" measuredHeight="171">
+      <widgets xsi:type="model:Panel" id="11" width="257" height="171" measuredWidth="257" measuredHeight="171"/>
+      <widgets xsi:type="model:HSlider" id="6" x="112" y="40" width="129" measuredWidth="129" measuredHeight="17" value="0"/>
+      <widgets xsi:type="model:HSlider" id="7" x="112" y="72" width="129" measuredWidth="129" measuredHeight="17" value="75"/>
+      <widgets xsi:type="model:HSlider" id="8" x="112" y="105" width="129" measuredWidth="129" measuredHeight="17" value="47"/>
+      <widgets xsi:type="model:Label" id="9" x="8" y="40" width="97" text="Wohnzimmer:" measuredWidth="97" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="10" x="8" y="68" width="97" text="Schlafzimmer:" measuredWidth="97" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="14" x="10" y="101" text="Badezimmer:" measuredWidth="81" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="16" y="7" width="257" text="Heizungskontrolle" measuredWidth="257" measuredHeight="25" textAlignment="Center">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:HSlider" id="18" x="112" y="138" width="129" measuredWidth="129" measuredHeight="17"/>
+      <widgets xsi:type="model:Label" id="19" x="10" y="134" text="Küche:" measuredWidth="43" measuredHeight="25">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="20" x="32" y="304" width="529" measuredWidth="529" measuredHeight="249">
+      <widgets xsi:type="model:Panel" id="17" width="529" height="249" measuredWidth="529" measuredHeight="249"/>
+      <widgets xsi:type="model:Chart" id="5" x="351" y="83" width="169" height="156" measuredWidth="169" measuredHeight="156" chartType="column"/>
+      <widgets xsi:type="model:Label" id="21" x="4" y="10" width="525" text="Verbrauch" measuredWidth="525" measuredHeight="25" textAlignment="Center">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Chart" id="22" x="178" y="83" width="169" height="156" measuredWidth="169" measuredHeight="156" chartType="column"/>
+      <widgets xsi:type="model:Chart" id="23" x="4" y="83" width="169" height="156" measuredWidth="169" measuredHeight="156" chartType="column"/>
+      <widgets xsi:type="model:Label" id="24" x="10" y="50" width="163" text="Strom" measuredWidth="163" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="25" x="178" y="50" width="163" text="Gas" measuredWidth="163" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="26" x="351" y="50" width="163" text="Wasser" measuredWidth="163" measuredHeight="25" textAlignment="Center">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="27" x="304" y="126" measuredWidth="257" measuredHeight="171">
+      <widgets xsi:type="model:Panel" id="28" width="257" height="171" measuredWidth="257" measuredHeight="171"/>
+      <widgets xsi:type="model:Label" id="32" x="8" y="40" width="97" text="Wohnzimmer:" measuredWidth="97" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="33" x="8" y="68" width="97" text="Schlafzimmer:" measuredWidth="97" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="34" x="10" y="101" text="Badezimmer:" measuredWidth="81" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="35" y="7" width="257" text="Licht" measuredWidth="257" measuredHeight="25" textAlignment="Center">
+        <font bold="true"/>
+      </widgets>
+      <widgets xsi:type="model:Label" id="37" x="10" y="134" text="Küche:" measuredWidth="43" measuredHeight="25">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Switch" id="38" x="152" y="40" text="ON,OFF" measuredWidth="73" measuredHeight="25" background="#3d85c6">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Switch" id="39" x="152" y="68" text="ON,OFF" measuredWidth="73" measuredHeight="25" background="#3d85c6">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Switch" id="40" x="152" y="101" text="ON,OFF" measuredWidth="73" measuredHeight="25" selected="true" background="#3d85c6">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Switch" id="41" x="152" y="134" text="ON,OFF" measuredWidth="73" measuredHeight="25" background="#3d85c6">
+        <font/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

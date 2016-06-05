@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="9" x="50" y="50" measuredWidth="600" measuredHeight="450">
+    <widgets xsi:type="model:Browser" id="1" width="600" height="450" text="Browser&#xA;http://smarthome.de/ueberwachung" measuredWidth="600" measuredHeight="450">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:CoverFlow" id="2" x="88" y="184" width="425" height="193" measuredWidth="425" measuredHeight="193"/>
+    <widgets xsi:type="model:WidgetGroup" id="8" x="32" y="75" measuredWidth="529" measuredHeight="41">
+      <widgets xsi:type="model:Panel" id="3" width="529" height="41" measuredWidth="529" measuredHeight="41"/>
+      <widgets xsi:type="model:Label" id="4" y="6" width="529" text="Kameraübersicht" measuredWidth="529" measuredHeight="31" textAlignment="Center">
+        <font size="16px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="5" x="238" y="218" width="137" height="129" measuredWidth="137" measuredHeight="129" icon="video (custom)"/>
+    <widgets xsi:type="model:Label" id="6" x="229" y="380" width="151" text="Kamera 1" measuredWidth="151" measuredHeight="25" textAlignment="Center">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
