@@ -38,6 +38,9 @@
         <font size="16px" bold="true"/>
       </widgets>
     </widgets>
+    <widgets xsi:type="model:Button" id="26" x="488" y="414" width="73" height="26" text="Logout" measuredWidth="73" measuredHeight="26">
+      <font/>
+    </widgets>
   </widgets>
   <hRuler/>
   <vRuler/>

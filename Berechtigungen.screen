@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:WidgetGroup" id="1" x="50" y="50" measuredWidth="600" measuredHeight="431">
-    <widgets xsi:type="model:Browser" id="2" width="600" height="431" text="Browser&#xA;http://smarthome.de/berechtigungen" measuredWidth="600" measuredHeight="431">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="50" y="50" measuredWidth="600" measuredHeight="463">
+    <widgets xsi:type="model:Browser" id="2" width="600" height="463" text="Browser&#xA;http://smarthome.de/berechtigungen" measuredWidth="600" measuredHeight="463">
       <font/>
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="3" x="32" y="75" width="529" measuredWidth="529" measuredHeight="41">
@@ -18,6 +18,12 @@
         </widgets>
         <widgets xsi:type="model:HScrollbar" id="53" y="245" width="509" measuredWidth="509" measuredHeight="17"/>
       </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="55" x="488" y="418" width="73" height="26" text="Logout" measuredWidth="73" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="56" x="32" y="418" width="73" height="26" text="Zurück" measuredWidth="73" measuredHeight="26">
+      <font/>
     </widgets>
   </widgets>
   <hRuler/>

@@ -15,6 +15,12 @@
     <widgets xsi:type="model:Label" id="6" x="229" y="380" width="151" text="Kamera 1" measuredWidth="151" measuredHeight="25" textAlignment="Center">
       <font bold="true"/>
     </widgets>
+    <widgets xsi:type="model:Button" id="10" x="488" y="404" width="73" height="26" text="Logout" measuredWidth="73" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="11" x="32" y="404" width="73" height="26" text="Zurück" measuredWidth="73" measuredHeight="26">
+      <font/>
+    </widgets>
   </widgets>
   <hRuler/>
   <vRuler/>

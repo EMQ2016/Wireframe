@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:WidgetGroup" id="1" x="50" y="50" measuredWidth="600" measuredHeight="543">
-    <widgets xsi:type="model:Browser" id="2" width="600" height="543" text="Browser&#xA;http://smarthome.de/alarmanlage" measuredWidth="600" measuredHeight="543">
+  <widgets xsi:type="model:WidgetGroup" id="1" x="50" y="50" measuredWidth="600" measuredHeight="583">
+    <widgets xsi:type="model:Browser" id="2" width="600" height="583" text="Browser&#xA;http://smarthome.de/alarmanlage" measuredWidth="600" measuredHeight="583">
       <font/>
     </widgets>
     <widgets xsi:type="model:WidgetGroup" id="3" x="32" y="75" width="529" measuredWidth="529" measuredHeight="41">
@@ -22,7 +22,7 @@
     <widgets xsi:type="model:WidgetGroup" id="74" x="32" y="198" measuredWidth="529" measuredHeight="177">
       <widgets xsi:type="model:Panel" id="40" width="529" height="177" measuredWidth="529" measuredHeight="177"/>
       <widgets xsi:type="model:WidgetGroup" id="58" x="10" y="14" measuredWidth="220" measuredHeight="25">
-        <widgets xsi:type="model:Label" id="41" text="Fronttüre:" measuredWidth="61" measuredHeight="25">
+        <widgets xsi:type="model:Label" id="41" text="Fronttür:" measuredWidth="54" measuredHeight="25">
           <font/>
         </widgets>
         <widgets xsi:type="model:Switch" id="45" x="147" text="ON,OFF" measuredWidth="73" measuredHeight="25" selected="true" background="#3d85c6">
@@ -38,7 +38,7 @@
         </widgets>
       </widgets>
       <widgets xsi:type="model:WidgetGroup" id="60" x="10" y="74" measuredWidth="220" measuredHeight="27">
-        <widgets xsi:type="model:Label" id="43" y="2" text="Kellertüre:" measuredWidth="64" measuredHeight="25">
+        <widgets xsi:type="model:Label" id="43" y="2" text="Kellertür:" measuredWidth="57" measuredHeight="25">
           <font/>
         </widgets>
         <widgets xsi:type="model:Switch" id="47" x="147" text="ON,OFF" measuredWidth="73" measuredHeight="25" selected="true" background="#3d85c6">
@@ -70,7 +70,7 @@
         </widgets>
       </widgets>
       <widgets xsi:type="model:WidgetGroup" id="61" x="10" y="106" measuredWidth="220" measuredHeight="25">
-        <widgets xsi:type="model:Label" id="54" text="Balkontüre OG 1:" measuredWidth="101" measuredHeight="25">
+        <widgets xsi:type="model:Label" id="54" text="Balkontür OG 1:" measuredWidth="94" measuredHeight="25">
           <font/>
         </widgets>
         <widgets xsi:type="model:Switch" id="55" x="147" text="ON,OFF" measuredWidth="73" measuredHeight="25" background="#3d85c6">
@@ -114,6 +114,12 @@
       <widgets xsi:type="model:Text" id="81" x="16" y="40" width="487" height="90" text="\[23.01.16 09:16:23\] Alarm in Wohnzimmer, Bewegungsmelder 01&#xA;\[14.01.16 20:22:56\] Alarm in Küche, Bewegungsmelder 14&#xA;..." measuredWidth="487" measuredHeight="90">
         <font/>
       </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="84" x="488" y="547" width="73" height="26" text="Logout" measuredWidth="73" measuredHeight="26">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="85" x="32" y="547" width="73" height="26" text="Zurück" measuredWidth="73" measuredHeight="26">
+      <font/>
     </widgets>
   </widgets>
   <hRuler/>
